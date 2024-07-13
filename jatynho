@@ -1,0 +1,11 @@
+import streamlit as st
+
+frase = 'NAMORA COMIGO?'
+
+
+def img():
+  st.image(fases.get((st.session.state.tentativas)))
+
+
+st.tittle('Jogo da Forca do Amor')
+st.
